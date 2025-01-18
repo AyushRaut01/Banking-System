@@ -81,20 +81,24 @@ public class Pin extends JFrame implements ActionListener {
 
         try{
 
-            String pin1 = p1.getText();
-            String pin2 = p2.getText();
+            String pin1 = new String(p1.getPassword());
+            String pin2 = new String(p2.getPassword());
 
             if (!pin1.equals(pin2)){
                 JOptionPane.showMessageDialog(null,"Entered PIN does not match");
                 return;
             }
-            if (e.getSource()==b1){
-                if (p1.getText().equals("")){
-                    JOptionPane.showMessageDialog(null,"Enter New PIN");
+            if (!pin1.equals(pin2)) {
+                JOptionPane.showMessageDialog(null, "Entered PIN does not match");
+                return;
+            }
+            if (e.getSource() == b1) {
+                if (pin1.equals("")) {
+                    JOptionPane.showMessageDialog(null, "Enter New PIN");
                     return;
                 }
-                if (p2.getText().equals("")){
-                    JOptionPane.showMessageDialog(null,"Re-Enter New PIN");
+                if (pin2.equals("")) {
+                    JOptionPane.showMessageDialog(null, "Re-Enter New PIN");
                     return;
                 }
 
