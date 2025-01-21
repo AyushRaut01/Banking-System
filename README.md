@@ -89,5 +89,18 @@ Database Schema
 
 Screenshots
 -----------
+![Screenshot 2025-01-21 111723](https://github.com/user-attachments/assets/b63f6489-1e5e-453d-a695-8f660cf4939e)
+
+![Screenshot 2025-01-21 111745](https://github.com/user-attachments/assets/dc205ac0-bf02-482b-8ef5-85caba01ae82)
+
+![Screenshot 2025-01-21 111848](https://github.com/user-attachments/assets/477a9f4c-6cdc-4063-9809-4dc2b7b5dd41)
+
+![Screenshot 2025-01-21 111923](https://github.com/user-attachments/assets/4e689a91-f37f-4cc8-9a3c-29886c95baa7)
+
+![Screenshot 2025-01-21 112030](https://github.com/user-attachments/assets/3f6e4366-4b63-498c-b590-c2a937de2b37)
+
+![Screenshot 2025-01-21 112048](https://github.com/user-attachments/assets/5620d222-40bb-46d3-95cf-bfe642a398e4)
+
+
 
 **Developer:** Ayush Rajendra Raut
