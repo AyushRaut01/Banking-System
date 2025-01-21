@@ -79,12 +79,12 @@ public class Signup extends JFrame implements ActionListener {
 
         r1 = new JRadioButton("Male");
         r1.setFont(new Font("Raleway", Font.BOLD,14));
-        r1.setBackground(new Color(222,255,228));
+        r1.setBackground(new Color(215,252,252));
         r1.setBounds(300,290,60,30);
         add(r1);
 
         r2 = new JRadioButton("Female");
-        r2.setBackground(new Color(222,255,228));
+        r2.setBackground(new Color(215,252,252));
         r2.setFont(new Font("Raleway", Font.BOLD,14));
         r2.setBounds(450,290,90,30);
         add(r2);
@@ -111,18 +111,18 @@ public class Signup extends JFrame implements ActionListener {
 
         m1 = new JRadioButton("Married");
         m1.setBounds(300,440,100,30);
-        m1.setBackground(new Color(222,255,228));
+        m1.setBackground(new Color(215,252,252));
         m1.setFont(new Font("Raleway", Font.BOLD,14));
         add(m1);
 
         m2 = new JRadioButton("Unmarried");
-        m2.setBackground(new Color(222,255,228));
+        m2.setBackground(new Color(215,252,252));
         m2.setBounds(450,440,100,30);
         m2.setFont(new Font("Raleway", Font.BOLD,14));
         add(m2);
 
         m3 = new JRadioButton("Other");
-        m3.setBackground(new Color(222,255,228));
+        m3.setBackground(new Color(215,252,252));
         m3.setBounds(635,440,100,30);
         m3.setFont(new Font("Raleway", Font.BOLD,14));
         add(m3);
@@ -180,7 +180,7 @@ public class Signup extends JFrame implements ActionListener {
         next.addActionListener(this);
         add(next);
 
-        getContentPane().setBackground(new Color(222,255,228));
+        getContentPane().setBackground(new Color(215,252,252));
         setLayout(null);
         setSize(850,800);
         setLocation(360,40);

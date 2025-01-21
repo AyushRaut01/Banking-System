@@ -21,17 +21,17 @@ public class Signup3 extends JFrame implements ActionListener {
         Image i2 = i1.getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
-        image.setBounds(150,5,100,100);
+        image.setBounds(100,4,100,100);
         add(image);
 
         JLabel l1 = new JLabel("Page 3:");
         l1.setFont(new Font("Raleway",Font.BOLD,22));
-        l1.setBounds(280,40,400,40);
+        l1.setBounds(350,40,500,50);
         add(l1);
 
         JLabel l2 = new JLabel("Account Details");
         l2.setFont(new Font("Raleway",Font.BOLD,22));
-        l2.setBounds(280,70,400,40);
+        l2.setBounds(320,70,400,40);
         add(l2);
 
         JLabel l3 = new JLabel("Account Type:");
@@ -48,7 +48,7 @@ public class Signup3 extends JFrame implements ActionListener {
         r2 = new JRadioButton("Fixed Deposit Account");
         r2.setFont(new Font("Raleway",Font.BOLD,16));
         r2.setBackground(new Color(215,252,252));
-        r2.setBounds(350,180,300,30);
+        r2.setBounds(420,180,300,30);
         add(r2);
 
         r3 = new JRadioButton("Current Account");
@@ -60,7 +60,7 @@ public class Signup3 extends JFrame implements ActionListener {
         r4 = new JRadioButton("Recurring Deposit Account");
         r4.setFont(new Font("Raleway",Font.BOLD,16));
         r4.setBackground(new Color(215,252,252));
-        r4.setBounds(350,220,250,30);
+        r4.setBounds(420,220,250,30);
         add(r4);
 
         ButtonGroup buttonGroup = new ButtonGroup();
@@ -118,7 +118,7 @@ public class Signup3 extends JFrame implements ActionListener {
         c2 = new JCheckBox("Internet Banking");
         c2.setBackground(new Color(215,252,252));
         c2.setFont(new Font("Raleway",Font.BOLD,16));
-        c2.setBounds(350,500,200,30);
+        c2.setBounds(420,500,200,30);
         add(c2);
 
         c3 = new JCheckBox("Mobile Banking");
@@ -130,7 +130,7 @@ public class Signup3 extends JFrame implements ActionListener {
         c4 = new JCheckBox("EMAIL Alerts");
         c4.setBackground(new Color(215,252,252));
         c4.setFont(new Font("Raleway",Font.BOLD,16));
-        c4.setBounds(350,550,200,30);
+        c4.setBounds(420,550,200,30);
         add(c4);
 
         c5 = new JCheckBox("Cheque Book");
@@ -142,7 +142,7 @@ public class Signup3 extends JFrame implements ActionListener {
         c6 = new JCheckBox("E-Statement");
         c6.setBackground(new Color(215,252,252));
         c6.setFont(new Font("Raleway",Font.BOLD,16));
-        c6.setBounds(350,600,200,30);
+        c6.setBounds(420,600,200,30);
         add(c6);
 
         JCheckBox c7 = new JCheckBox("I here by decleares that the above entered details correct to the best of my knlowledge.",true);
